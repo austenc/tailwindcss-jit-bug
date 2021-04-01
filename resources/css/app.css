@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.alert {
+    @apply p-6 bg-red-100 border-t-4 border-red-400 text-red-700;
+}
+
+@tailwind utilities;
