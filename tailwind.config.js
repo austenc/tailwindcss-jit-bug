@@ -1,4 +1,5 @@
 module.exports = {
+  // Removing this prefix function allows "npm run dev" to work correctly
   prefix(selector) {
     return ''
   },
